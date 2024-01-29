@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Yönlendirme</title>
+</head>
+<body>
+    <script type="text/javascript">
+        // Slug'ı al
+        const slug = window.location.pathname;
+        // Yönlendirme yapılacak URL'i oluştur
+        const newURL = `https://docs.yemreak.com/${slug}`;
+        // Yönlendir
+        window.location.href = newURL;
+    </script>
+</body>
+</html>
